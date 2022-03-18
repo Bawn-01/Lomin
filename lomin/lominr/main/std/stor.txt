@@ -1,0 +1,19 @@
+def readVar(name):
+    with open("VARSTOR.Vln", "r") as f:
+        for line in f.readlines():
+            if name in line:
+                fn = line.rstrip()
+                fin = fn.replace(name, "")
+                finn = fin.replace(" = ", "")
+                if "\"" in finn:
+                    fnn = finn.replace("\"", "")
+                    fnnn = fnn.replace("string ", "")
+                    print(fnnn)
+                elif "inp" in finn:
+                    fnn = finn.replace("inp ", "")
+                    fni = fnn.replace(" ", "")
+                    print(fni)
+                else:
+                    fnn = finn.replace("integer ", "")
+                    print(fnn)
+            f.close()

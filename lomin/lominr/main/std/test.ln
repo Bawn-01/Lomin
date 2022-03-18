@@ -1,0 +1,24 @@
+set_mem_size 10
+
+var ansOne = "pro"
+var ansTwo = "noob"
+var amsThree = "sup"
+
+println("What am I?")
+var qOne = input
+println("What are you?")
+var qTwo = input
+println("What should the standard greeting be?")
+var qThree = input
+
+if qOne == ansOne
+println("Question One, Correct!")
+end
+
+if qTwo == ansTwo
+println("Question Two, Correct!")
+end
+
+if qThree = amsThree
+println("Question Three Correct!")
+end
