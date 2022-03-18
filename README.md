@@ -44,7 +44,7 @@ if qTwo == ansTwo
 println("Question Two, Correct!")
 end
 
-if qThree = amsThree
+if qThree == amsThree
 println("Question Three Correct!")
 end
 
